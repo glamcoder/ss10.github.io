@@ -1,0 +1,113 @@
+html, body, h1, h2, div, p {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #accde0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+div.container {
+	min-width: 450px;
+	height: 100%;
+		
+	margin-left: auto;
+	margin-right: auto;
+	
+	padding: 0;	
+}
+
+/* card */
+
+.card {		
+	width: 450px;
+	height: 230px;
+	
+	margin-top: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	border: dotted 1px #ccc;
+		
+	-webkit-box-shadow: 5px 5px 3px 2px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 5px 5px 3px 2px rgba(0, 0, 0, 0.3);
+	box-shadow: 5px 5px 3px 2px rgba(0, 0, 0, 0.3);
+	
+	background-color: #fff;
+}
+
+.card .content {
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+/* card header */
+
+.card .header {
+	padding-top: 25px;
+	border-bottom: dotted 1px #ccc;	
+	height: 50px;
+}
+
+.card .header h1 {
+	font-size: 22px;
+}
+
+.card .header h2 {
+	font-size: 14px;
+	font-style: italic;
+	font-weight: normal;
+}
+
+/* card body */
+
+.card .body {
+	height: 90px;
+	padding-top: 40px;
+}
+
+.card .body .right {
+	float: right;
+	width: 250px;
+}
+
+.card .body h1 {
+	font-size: 18px;
+
+}
+
+.card .body h2 {
+	font-size: 12px;
+	font-style: italic;
+	font-weight: normal;
+}
+
+/* card footer */
+
+.card .footer {
+	display: block;
+	
+	height: 20px;
+	margin-bottom: 3px;
+	padding-top: 2px;
+	
+	border-top: dotted 1px #ccc;
+	
+	color: #777;
+	font-size: 12px;
+}
+
+.card .footer .span {
+	display: inline-block;
+}
+
+.card .footer .email {
+	float: right;	
+	text-align: right;
+}
+
+.card .footer .email a {
+	text-decoration: underline;
+	color: #777;
+}
